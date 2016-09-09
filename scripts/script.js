@@ -8,10 +8,10 @@ var myImage = document.querySelector('section');
         }
     }
 
-    $(".one").on("click", function(){
-    $(".one").addClass("active")
+    $(".two").on("click", function(){
+    $(".two").addClass("active")
 
   })
-  $(".one").on("dblclick", function(){
-    $(".one").addClass("nonactive")
+  $(".two").on("dblclick", function(){
+    $(".two").addClass("nonactive")
   })

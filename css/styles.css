@@ -36,7 +36,7 @@ section{
   left: 0;
 }
 .two{
-  position: absolute;
+
   background-color: #92063D;
   top: 0;
   right: 0px;
@@ -94,4 +94,28 @@ p {
   font-size: 12px;
   text-align: center;
   color: white;
+}
+.resume{
+background-color: green;
+display: flex;
+flex-direction: column;
+}
+.techSkills, .education, .work-experience{
+  display: flex;
+  justify-content: flex-start;
+}
+#techImg{
+  order: 2;
+}
+#techParagraph{
+  order: 1;
+}
+#techDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+#techImg, #educationImg, #work-ExperienceImg{
+  height: 50%;
+  width: 50%;
 }
