@@ -1,6 +1,9 @@
 body{
   width: 100vw;
   height: 100vh;
+  background-color: #3C3C3C;
+  font-family:'Raleway', sans-serif;
+  color: #84CDFC;
 
 }
 section{
@@ -8,7 +11,8 @@ section{
   position: absolute;
   height: 50%;
   width: 50%;
-  border: 1px solid red;
+  border-radius: 10px;
+  /*border: 1px solid red;*/
 }
 .active {
   z-index: 5;
@@ -37,7 +41,7 @@ section{
 }
 .two{
 
-  background-color: #92063D;
+  background-color: white;
   top: 0;
   right: 0px;
 
@@ -55,67 +59,88 @@ section{
   right: 0;
 
 }
-.topLeft{
-  height: 20px;
-  width: 20px;
-  border: 1px solid red;
-
+body, .main{
+  background-color: #3C3C3C;
+  font-family:'Raleway', sans-serif;
+  color: #84CDFC;
+  margin: 0;
+  overflow: auto;
 
 }
-.topRight{
+h1, h3{
+  margin-left: 60px;
+}
+.navbardiv{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 20px;
-  width: 20px;
-  border: 1px solid red;
 
 }
-.bottomRight{
-  height: 20px;
-  width: 20px;
-  border: 1px solid red;
-
-}
-.bottomLeft{
-  height: 20px;
-  width: 20px;
-  border: 1px solid red;
-
-}
-header {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 36px;
-  text-align: center;
-  color: white;
-}
-p {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 12px;
-  text-align: center;
-  color: white;
-}
-.resume{
-background-color: green;
+.navbar{
+background-color: #84CDFC;
 display: flex;
-flex-direction: column;
+justify-content: space-between;
+  border-radius: 10px;
+  width: 60%;
 }
-.techSkills, .education, .work-experience{
-  display: flex;
-  justify-content: flex-start;
+.navbarli{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+
+
+
+
 }
-#techImg{
-  order: 2;
-}
-#techParagraph{
-  order: 1;
-}
-#techDiv{
-  display: flex;
-  flex-direction: column;
+a{
+  text-decoration: none;
+
+  color: #3C3C3C;
+
 }
 
-#techImg, #educationImg, #work-ExperienceImg{
-  height: 50%;
-  width: 50%;
+.aboutmediv{
+  display: flex;
+flex-direction: row;
+
 }
+.aboutmediv li{
+  list-style: none;
+
+}
+.aboutmediv2{
+  border-top: 10;
+  border-left: 30;
+  border-color: white;
+}
+#testselfie{
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 45%;
+
+}
+.resume2ndbody, .resume3rdbody{
+  background-color: #84CDFC;
+  border-radius: 5px;
+  color: #3C3C3C;
+
+
+}
+.resume2ndbody{
+margin-top: 30px;
+  overflow: auto;
+
+}
+.resume3rdbody{
+  margin-top: 0;
+  overflow: auto;
+}
+.resume2ndbody:before, .resume3rdbody:before,  {
+  content : "";
+  position: absolute;
+  right  : 0;
+  top  : 10;
+  height  : 10px;
+  width   : 25%;  /* or 100px */
+  border-top:3px solid #1E5E92;
+  border-spacing:
